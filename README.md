@@ -26,7 +26,7 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
 ## ✨ Features
 
 <div align="center">
-  <img src="./assets/Vocabulary_Simplification_Service.gif" alt="Word Munch Demo" width="300"/>
+  <img src="./assets/Vocabulary_Simplification_Service.gif" alt="Word Munch Demo" width="350"/>
 </div>
 
 - ### 📚 Vocabulary Simplification Service
@@ -37,9 +37,11 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
   - If it’s a **general academic word**, it provides a **simplified synonym**.
   - Includes a `Simplify` button to further simplify the term if desired.
 
-<p style="text-align: center;">
-  <img src="./assets/Sentence_Understanding_Service.gif" alt="Word Munch Demo" width="300"/>
-</p>
+<div style="height: 40;"></div>
+
+<div align="center">
+  <img src="./assets/Sentence_Understanding_Service.gif" alt="Word Munch Demo" width="350"/>
+</div>
 
 - ### 🧾 Sentence Understanding Service
   - Highlight a sentence to activate the service.
@@ -49,27 +51,31 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
     - Example
   - A popup appears with a `Simplify` button to reduce complexity on demand.
 
+<div style="height: 40;"></div>
 
-<p style="text-align: center;">
+<div align="center">
   <img src="./assets/Text_Chunking_Service.gif" alt="Word Munch Demo" width="600"/>
-</p>
+</div>
 
 - ### 📄 Text Chunking Service 
   - Users read **one paragraph at a time**. Pressing `Enter` prompts them to summarize the paragraph before moving to the next.
 
-<div style="height: 10px;"></div>
+<div style="height: 10;"></div>
 
 - ### 🧠 Paragraph Summarization Service
   - At the **end of each paragraph**, users are asked to summarize what they read, promoting active engagement.
 
-<div style="height: 10px;"></div>
+<div style="height: 10;"></div>
 
 - ### 🧠 Knowledge Graph Service
   - After summarizing a paragraph, a **cell representing the concept** is added to a dynamic **diagram on the right panel**, forming a visual knowledge graph.
-
-<div style="height: 10px;"></div>
+  <div style="height: 10;"></div>
   
-   🍽️ **Chunk reading mode**, along with its summarization and knowledge graph features, is activated by clicking the extension icon. These tools are designed to enhance focus and comprehension while reading complex text.
+  **Chunk reading mode**, along with its summarization and knowledge graph features, is activated by clicking the extension icon. These tools are designed to enhance focus and comprehension while reading complex text.
+
+
+  
+  
 
 ## 🚀 Getting Started
 
