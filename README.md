@@ -1,4 +1,4 @@
-#  <img src="icon.png" alt="Word Munch Logo" width="30"/> Word Munch - Chrome Extension for Simplified 📘Reading Experience
+#  <img src="./assets/icon.png" alt="Word Munch Logo" width="30"/> Word Munch - Chrome Extension for Simplified 📘Reading Experience
 
 > Word Munch **chunks** dense text, **simplifies** jargon and long sentences, so to **extracts** key ideas and reduce cognitive overload. With reflection **prompts** and logic **diagrams**, it helps users summarize, understand, and retain information— **all within the browser**.
 
@@ -25,7 +25,9 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
 
 ## ✨ Features
 
-![Word Munch Demo](./assets/Vocabulary Simplification Service.gif)
+<div align="center">
+  <img src="./assets/Vocabulary_Simplification_Service.gif" alt="Word Munch Demo" width="300"/>
+</div>
 
 - ### 📚 Vocabulary Simplification Service
   - Click on a word to **trigger a popup**.
@@ -35,7 +37,11 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
   - If it’s a **general academic word**, it provides a **simplified synonym**.
   - Includes a `Simplify` button to further simplify the term if desired.
 
-![Word Munch Demo](path/to/your/demo.gif)
+<div style="height: 40px;"></div>
+
+<p style="text-align: center;">
+  <img src="./assets/Sentence_Understanding_Service.gif" alt="Word Munch Demo" width="300"/>
+</p>
 
 - ### 🧾 Sentence Understanding Service
   - Highlight a sentence to activate the service.
@@ -45,20 +51,26 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
     - Example
   - A popup appears with a `Simplify` button to reduce complexity on demand.
 
-![Word Munch Demo](path/to/your/demo.gif)
+<div style="height: 40px;"></div>
+
+<p style="text-align: center;">
+  <img src="./assets/Text_Chunking_Service.gif" alt="Word Munch Demo" width="600"/>
+</p>
 
 - ### 📄 Text Chunking Service 
   - Users read **one paragraph at a time**. Pressing `Enter` prompts them to summarize the paragraph before moving to the next.
 
-![Word Munch Demo](path/to/your/demo.gif)
+<div style="height: 10px;"></div>
+
 - ### 🧠 Paragraph Summarization Service
   - At the **end of each paragraph**, users are asked to summarize what they read, promoting active engagement.
 
-![Word Munch Demo](path/to/your/demo.gif)
+<div style="height: 10px;"></div>
+
 - ### 🧠 Knowledge Graph Service
   - After summarizing a paragraph, a **cell representing the concept** is added to a dynamic **diagram on the right panel**, forming a visual knowledge graph.
 
-  &nbsp;&nbsp;
+<div style="height: 10px;"></div>
   
    🍽️ **Chunk reading mode**, along with its summarization and knowledge graph features, is activated by clicking the extension icon. These tools are designed to enhance focus and comprehension while reading complex text.
 
