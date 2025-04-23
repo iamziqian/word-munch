@@ -14,11 +14,11 @@ app.post('/api/sentence', async (req, res) => {
   try {
     const analysisResponse = await axios.post('http://host.docker.internal:11434/api/generate', {
       model: 'llama3.2',
-      prompt: `Analyze the following sentence: "${sentence}" in the context: "${context}". Respond in the following structured format:
-      Main idea: [Extract the main structure of the sentence]
-      Key word: [List the key concepts or keywords]
-      Exp: [Provide a concise explanation of the sentence]
-      e.g.: [Provide a practical example to explain it]`,
+      prompt: `Analyze the following sentence: "${sentence}" in the context: "${context}". Respond concisely in the following format:
+      Main idea: [Briefly summarize the main idea in one sentence],
+      Key word: [List 2-3 key concepts or keywords],
+      Exp: [Provide a short explanation in one sentence],
+      e.g.: [Give a simple example in one sentence]`,
       stream: false
     });
 
