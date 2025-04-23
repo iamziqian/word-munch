@@ -25,7 +25,7 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
 
 ## ✨ Features
 
-![Word Munch Demo](path/to/your/demo.gif)
+![Word Munch Demo](./assets/Vocabulary Simplification Service.gif)
 
 - ### 📚 Vocabulary Simplification Service
   - Click on a word to **trigger a popup**.
