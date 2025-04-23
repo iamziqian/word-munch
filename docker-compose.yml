@@ -1,0 +1,34 @@
+services:
+  api-gateway:
+    build: ./services/api-gateway
+    ports:
+      - "8000:1000"     #host-port:container-port
+    depends_on:
+      - vocabulary-service
+      - sentence-service
+      - paragraph-service
+      - knowledge-graph
+
+  vocabulary-service:
+    build: ./services/vocabulary-service
+    ports:
+      - "3001:3000"
+
+  sentence-service:
+    build: ./services/sentence-service
+    ports:
+      - "4001:4000"
+
+  paragraph-service:
+    build: ./services/paragraph-service
+    ports:
+      - "6001:6000"
+    
+  knowledge-graph:
+    build: ./services/knowledge-graph
+    ports:
+      - "9001:9000"
+
+networks:
+  word-munch-network:
+    driver: bridge
