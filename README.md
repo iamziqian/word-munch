@@ -87,7 +87,7 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
 3. Load the extension in Chrome:
    - Go to `chrome://extensions/`
    - Enable **Developer mode**
-   - Click **Load unpacked** and select the `extension` folder
+   - Click **Load unpacked** and select the `chrome-extension` folder
 
 ### Development
 
