@@ -1,0 +1,28 @@
+#vocab-popup {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  z-index: 999999;
+  max-width: 320px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+  
+#vocab-popup hr {
+  margin: 12px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+  
+#vocab-popup button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
