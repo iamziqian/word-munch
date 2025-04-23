@@ -37,8 +37,6 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
   - If it’s a **general academic word**, it provides a **simplified synonym**.
   - Includes a `Simplify` button to further simplify the term if desired.
 
-<div style="height: 40px;"></div>
-
 <p style="text-align: center;">
   <img src="./assets/Sentence_Understanding_Service.gif" alt="Word Munch Demo" width="300"/>
 </p>
@@ -51,7 +49,6 @@ No more tab-switching, no more cognitive overload. Just click, simplify, and und
     - Example
   - A popup appears with a `Simplify` button to reduce complexity on demand.
 
-<div style="height: 40px;"></div>
 
 <p style="text-align: center;">
   <img src="./assets/Text_Chunking_Service.gif" alt="Word Munch Demo" width="600"/>
